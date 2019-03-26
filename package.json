@@ -1,0 +1,20 @@
+{
+  "name": "socketserver",
+  "version": "1.0.0",
+  "description": "Notification server trought socket",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Fernando Lujan",
+  "repository": "https://github.com/ferfromhell/mernapp2/",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
