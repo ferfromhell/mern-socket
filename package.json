@@ -4,7 +4,7 @@
   "description": "Notification server trought socket",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Fernando Lujan",
   "repository": "https://github.com/ferfromhell/mernapp2/",
