@@ -40,7 +40,7 @@ io.on('connection', socket => {
   
   socket.on('disconnect', async () => {
     // console.log('user disconnected', socket.handshake.headers.cookie);
-    const url="authserver/api/users/current";
+    const url="http://authserver:5555/api/users/current";
     await axios({
           url: '/api/users/current',
           method: 'get',
